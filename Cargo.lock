@@ -139,6 +139,7 @@ dependencies = [
  "clap",
  "dashmap",
  "fennel-parser",
+ "proc-macro2",
  "ropey",
  "serde",
  "serde_json",
@@ -482,9 +483,9 @@ dependencies = [
 
 [[package]]
 name = "proc-macro2"
-version = "1.0.51"
+version = "1.0.78"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "5d727cae5b39d21da60fa540906919ad737832fe0b1c165da3a34d6548c849d6"
+checksum = "e2422ad645d89c99f8f3e6b88a9fdeca7fabeac836b1002371c4367c8f984aae"
 dependencies = [
  "unicode-ident",
 ]
